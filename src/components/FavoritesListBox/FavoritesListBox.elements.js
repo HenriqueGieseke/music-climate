@@ -17,8 +17,12 @@ export const ContentBox = styled.div`
   border-radius: 20px;
   transition: all 0.3s;
   animation: ${FadeIn} 1.5s ease;
-
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 10;
+
+  @media (max-width: 1550px) {
+    margin-top: 0;
+  }
 `;
 
 export const TitleWrapper = styled.div`
