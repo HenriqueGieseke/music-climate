@@ -59,6 +59,7 @@ export const SearchInput = styled.input`
   border-radius: 5px;
   width: 30%;
   height: 95%;
+  min-height: 1.7rem;
   padding: 0 1rem;
 
   ::-webkit-input-placeholder {
