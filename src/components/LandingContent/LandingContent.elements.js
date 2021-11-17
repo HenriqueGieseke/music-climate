@@ -20,6 +20,11 @@ export const LandingText = styled.h2`
   font-size: 5.3rem;
   color: #26f7fd;
   text-align: center;
+  
+  @media (max-width: 1600px) {
+    margin-top: -9rem;
+    font-size: 4rem;
+  }
 `;
 
 export const BigLogo = styled.img``;
