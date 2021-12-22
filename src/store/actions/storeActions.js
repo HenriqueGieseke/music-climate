@@ -38,7 +38,7 @@ export const toggleLoadingStatus = (status) => {
 export const searchWeather = (query) => async (dispatch, getState) => {
   try {
     const { data } = await axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${process.env.REACT_APP_API_KEY}&lang=pt_br&units=metric`
+      `//api.openweathermap.org/data/2.5/weather?q=${query}&appid=${process.env.REACT_APP_API_KEY}&lang=pt_br&units=metric`
     );
     const weatherData = data;
 
